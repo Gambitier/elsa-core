@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+        <Description>
+            Provides a activities to send and receive messages using RabbitMQ.
+        </Description>
+        <PackageTags>elsa module activities rabbitmq</PackageTags>
+    </PropertyGroup>
+    
+</Project>
