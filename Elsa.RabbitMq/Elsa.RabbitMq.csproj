@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	
 	<PropertyGroup>
 		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
@@ -7,5 +7,9 @@
 		</Description>
 		<PackageTags>elsa module rabbitmq</PackageTags>
 	</PropertyGroup>
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\src\common\Elsa.Features\Elsa.Features.csproj" />
+	</ItemGroup>
 
 </Project>
