@@ -5,7 +5,7 @@
 		<Description>
 			Provides integration with the Rebus.RabbitMq library.
 		</Description>
-		<PackageTags>elsa module scheduling quartz</PackageTags>
+		<PackageTags>elsa module rabbitmq</PackageTags>
 	</PropertyGroup>
 
 </Project>
